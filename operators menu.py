@@ -12,6 +12,7 @@ elif op=="/":
     result=num1/num2
 elif op=="%":
     result=num1%num2
+    c=num1%num2,"your number is "
 else:
     print("invalid operator!!")
 print(num1,op,num2,"=",result)
